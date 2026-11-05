@@ -24,9 +24,8 @@ El sistema reemplaza las planillas sueltas en papel por registros estructurados,
 
 Siguiendo estrictamente las pautas de la cátedra de Programación I:
 - **No se sobrecarga el código con complejidades innecesarias**: se utiliza programación estructurada pura, arreglos estáticos dimensionados mediante directivas `#define`, y paso de parámetros por valor y por referencia (punteros).
-- **Biblioteca `utils.h`**: Contiene las funciones utilitarias provistas por la cátedra (`limpiaPantalla()`, `pausa()`, `utf8()`, `linea()`, `leerEntero()`, `leerFlotante()`, `leerCadena()`, `sonIguales()`, etc.).
-  - **Estructura solicitada por la cátedra:** Se anuncian los prototipos de las funciones al inicio del archivo `utils.h` y su desarrollo real se encuentra implementado debajo dentro del mismo archivo.
-  - Se incluye también `utiles.h` como interfaz compatible.
+- **Biblioteca `utiles.h`**: Contiene las funciones utilitarias provistas por la cátedra (`limpiaPantalla()`, `pausa()`, `utf8()`, `linea()`, `leerEntero()`, `leerFlotante()`, `leerCadena()`, `sonIguales()`, etc.).
+  - **Estructura solicitada por la cátedra:** Se anuncian los prototipos de las funciones al inicio del archivo `utiles.h` y su desarrollo real se encuentra implementado debajo dentro del mismo archivo.
 - **Modelado con Estructuras (`struct`)**:
   - Se modelan las entidades principales (`Cliente`, `Vehiculo`, `Repuesto`, `DetalleOrden`, `OrdenTrabajo`, `Factura`, `Usuario`).
   - **Estructura anidada obligatoria:** La entidad `Factura` incorpora una estructura anidada `Liquidacion` para encapsular los costos detallados (mano de obra, repuestos, subtotal, IVA y total general).

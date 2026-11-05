@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
 TARGET = fixly
 SRC = main.c
-HEADERS = utils.h utiles.h
+HEADERS = utiles.h
 
 all: $(TARGET)
 
