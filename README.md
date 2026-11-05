@@ -8,7 +8,6 @@
 ### Integrantes del Proyecto:
 - Alexander Ezequiel Albani
 - Nahuel Agustín Gatica
-- Marcos Javier Baez Aguilera
 - Patricia Alejandra Martínez
 
 ---
