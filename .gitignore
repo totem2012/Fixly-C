@@ -1,0 +1,13 @@
+# Compilados y ejecutables
+fixly
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Archivos temporales del sistema
+*.tmp
+*.swp
+*~
+.DS_Store
